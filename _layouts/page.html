@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="page container">
+  {% if page.kicker or page.subtitle %}
+    <header class="page-header">
+      {% if page.kicker %}<p class="kicker">// {{ page.kicker }}</p>{% endif %}
+      {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
+    </header>
+  {% endif %}
+  <div class="page-content">
+    {{ content }}
+  </div>
+</article>

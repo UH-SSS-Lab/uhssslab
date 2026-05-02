@@ -1,0 +1,74 @@
+# Courses taught by the lab.
+# Listed in the order they appear on /teaching/.
+#
+# Fields:
+#   code:        course number (e.g. CIS 2337)
+#   title:       course name
+#   level:       "Undergraduate" or "Graduate"
+#   semesters:   list of semester codes, newest first
+#   description: 1-3 sentence course description
+#   topics:      short list of key topics (renders as pill tags)
+#   pattern:     bg pattern slug: dots, lines, hex, diag, binary, globe
+
+- code: CIS 2337
+  title: Fundamentals of Information Security
+  level: Undergraduate
+  pattern: dots
+  book_image: /assets/img/books/cis2337.jpg
+  book_authors: Conklin & White
+  book_edition: 4th Edition
+  semesters: [S26, F25, S25, F24, S24, F23, S23, F22]
+  description: >-
+    A comprehensive undergraduate course introducing students to the
+    critical concepts and practices within information security. Students
+    learn how to protect data against unauthorized access, alteration,
+    and destruction. The course balances theoretical knowledge with
+    hands-on application.
+  topics:
+    - Cryptography
+    - Security policies & laws
+    - Ethical hacking
+    - Digital forensics
+    - Risk management
+
+- code: CIS 6321
+  title: Principles of Cybersecurity
+  level: Graduate
+  pattern: binary
+  book_image: /assets/img/books/cis6321.jpg
+  book_authors: Conklin & White
+  book_edition: 6th Edition
+  semesters: [S26, F25, S25, F24, S24, F23]
+  description: >-
+    An advanced graduate course on the theoretical and practical aspects
+    of cybersecurity. Through lectures, case studies, and hands-on labs,
+    students explore the latest strategies, tools, and techniques used to
+    protect information systems against cyberattacks, unauthorized access,
+    and emerging threats.
+  topics:
+    - Threat modeling
+    - Defensive architectures
+    - Cryptographic protocols
+    - Incident response
+    - Security research methods
+
+- code: CIS 4357
+  title: Digital Forensics
+  level: Undergraduate
+  pattern: diag
+  book_image: /assets/img/books/cis4357.jpg
+  book_authors: Nelson, Phillips & Steuart
+  book_edition: 6th Edition
+  semesters: [S24]
+  description: >-
+    An undergraduate course equipping students with the knowledge and
+    skills to investigate and analyze digital devices. Students explore
+    methodologies for the identification, preservation, examination, and
+    reporting of digital artifacts across computers, mobile devices, and
+    networks, including the legal and ethical considerations.
+  topics:
+    - Evidence acquisition
+    - Forensic analysis
+    - Mobile & network forensics
+    - Legal & ethical practice
+    - Reporting

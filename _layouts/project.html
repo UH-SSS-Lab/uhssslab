@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<article class="project-page">
+  <div class="container">
+
+    <header class="page-header">
+      <p class="kicker">// Research</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
+    </header>
+
+    {% if page.hero_image %}
+      <figure class="project-hero-photo">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | default: page.title }}" loading="lazy">
+        {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+      </figure>
+    {% endif %}
+
+    <div class="page-content project-content">
+      {{ content }}
+    </div>
+
+    {% assign theme_pubs = site.data.publications | where_exp: "p", "p.themes contains page.slug" | sort: "year" | reverse %}
+    {% if theme_pubs.size > 0 %}
+      <section class="project-pubs">
+        <h2 class="year-heading">Publications in this area</h2>
+        <ul class="pub-list">
+          {% for pub in theme_pubs %}
+            <li class="pub">
+              <div class="pub-figure">
+                {% if pub.figure %}
+                  <img src="{{ pub.figure | relative_url }}" alt="" loading="lazy">
+                {% else %}
+                  <div class="pub-figure-empty" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 13l3-3 5 5M14 9l3-3"/></svg>
+                  </div>
+                {% endif %}
+              </div>
+              <div class="pub-body">
+                <p class="pub-title">{{ pub.title }}</p>
+                <p class="pub-authors">{{ pub.authors }}</p>
+                <p class="pub-venue">{{ pub.venue }} · {{ pub.year }}{% if pub.award %} <span class="pub-award">★ {{ pub.award }}</span>{% endif %}</p>
+                <div class="pub-links">
+                  {% if pub.abstract %}
+                    <button type="button" class="pub-btn pub-btn-toggle" aria-expanded="false">
+                      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+                      Abstract
+                    </button>
+                  {% endif %}
+                  {% if pub.pdf and pub.pdf != "" %}
+                    <a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener">
+                      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                      PDF
+                    </a>
+                  {% endif %}
+                  {% if pub.doi and pub.doi != "" %}
+                    <a class="pub-btn" href="{{ pub.doi }}" target="_blank" rel="noopener">
+                      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                      DOI
+                    </a>
+                  {% endif %}
+                  {% if pub.code and pub.code != "" %}
+                    <a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener">
+                      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                      Code
+                    </a>
+                  {% endif %}
+                </div>
+                {% if pub.abstract %}
+                  <div class="pub-abstract" hidden>
+                    {{ pub.abstract | markdownify }}
+                  </div>
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    <p class="post-back"><a href="{{ '/research/' | relative_url }}">&larr; All research</a></p>
+  </div>
+</article>
+
+<script>
+(function () {
+  document.querySelectorAll('.pub-btn-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const pub = btn.closest('.pub');
+      const abs = pub && pub.querySelector('.pub-abstract');
+      if (!abs) return;
+      const open = abs.hidden;
+      abs.hidden = !open;
+      btn.classList.toggle('is-open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+})();
+</script>

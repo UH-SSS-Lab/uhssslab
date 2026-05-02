@@ -1,0 +1,137 @@
+# Lab members
+# Each person can have these contact fields (any blank ones hide their icon):
+#   email, linkedin, scholar, website, github
+#
+# Categories: PI, Postdocs, PhD Students, Masters Students, Undergraduates,
+# Research Staff, Visiting, Alumni
+#
+# `slug` makes the card clickable. Create _people/<slug>.md for the detail page.
+
+- name: Kyu In Lee, PhD
+  category: PI
+  role: Principal Investigator
+  photo: /assets/img/pi-headshot.jpg
+  email: klee48@cougarnet.uh.edu
+  linkedin: https://www.linkedin.com/in/kyuin-lee-494940112/
+  website: ""
+  scholar: ""
+  bio: >-
+    One- to two-sentence bio.
+
+- name: Muhammad Baqer Mollah, PhD
+  category: Postdocs
+  role: Postdoctoral Researcher · 2025
+  photo: /assets/img/people/mollah.jpg
+  email: mmollah@uh.edu
+  linkedin: https://www.linkedin.com/in/muhdbaqer/
+  website: https://mbaqer.github.io/
+  scholar: ""
+
+- name: Haoran Li
+  category: PhD Students
+  role: ECE PhD Student · 2025
+  photo: /assets/img/people/haoran.jpg
+  email: hli80@cougarnet.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+- name: Hyejin Lee
+  category: PhD Students
+  role: ECE PhD Student · 2025
+  photo: /assets/img/people/hyejin.jpg
+  email: hlee84@cougarnet.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+- name: Omar Achkar
+  category: Masters Students
+  role: IST MS Student · 2024
+  photo: /assets/img/people/omar.jpg
+  email: oachkar@cougarnet.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+- name: Sohan Simha Prabhakar
+  category: Masters Students
+  role: IST MS Student · 2024
+  photo: /assets/img/people/sohan.jpg
+  email: sprabha3@cougarnet.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+- name: Zoheir Shaikh
+  category: Masters Students
+  role: IST MS Student · 2026
+  photo: /assets/img/people/placeholder.png
+  email: zshaikh3@cougarnet.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+- name: Mujtabaa Adam
+  category: Undergraduates
+  role: Undergraduate Researcher · 2025
+  photo: /assets/img/people/placeholder.png
+  email: madam@cougarnet.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+- name: Ahmad Achkar
+  category: Visiting
+  role: Visiting Scholar (TAMU) · 2025
+  photo: /assets/img/people/ahmad.jpg
+  email: ahmadachkar@tamu.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
+# ===== Previous Members (alumni) =====
+
+- name: Chenpei Huang
+  category: Alumni
+  role: PhD, 2025
+
+- name: Euijun Jung
+  category: Alumni
+  role: Visiting PhD (SNU), 2025
+
+- name: Devayani Nagabhushan
+  category: Alumni
+  role: Visiting High School Researcher, 2025
+
+- name: Mohammad Ibrahim Saleem
+  category: Alumni
+  role: MS, 2024
+
+- name: Larry J Nissen
+  category: Alumni
+  role: MS, 2024
+
+- name: Pratik Dilip Gurav
+  category: Alumni
+  role: MS, 2024
+
+- name: Veesamsetty Sairam
+  category: Alumni
+  role: MS, 2023
+
+- name: Tharun Natarajan Prabhu
+  category: Alumni
+  role: MS, 2023
+
+- name: Tommy Q Tran
+  category: Alumni
+  role: BS, 2023
+
+- name: Ethan Van Hoang
+  category: Alumni
+  role: BS, 2023
+
+- name: Miracle Nans
+  category: Alumni
+  role: BS, 2023

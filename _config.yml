@@ -1,0 +1,107 @@
+# =============================================================================
+# Site settings; edit these to customize your lab site
+# =============================================================================
+
+title: Smart Systems Security Laboratory
+short_title: SSS Lab
+tagline: Securing the smart systems of tomorrow.
+description: >-
+  The Smart Systems Security Laboratory (SSS Lab) researches the security and
+  privacy of smart, connected, and cyber-physical systems. Our work spans
+  Internet-of-Things, embedded, and AI-driven systems with real-world deployment.
+
+# Logo shown in the site header. Drop the file at the path below.
+logo: "/assets/img/sss-logo.png"
+
+# Used for canonical URLs and social cards. When you point uhssslab.com at
+# GitHub Pages, leave url as below and put your domain in the CNAME file.
+url: "https://uhssslab.com"
+baseurl: ""
+
+# PI / lab head
+pi:
+  name: "Kyu In Lee, PhD"
+  title: "Principal Investigator"
+  email: "klee48@cougarnet.uh.edu"
+  photo: "/assets/img/pi-headshot.jpg"
+
+# Lab address (shown on contact page)
+address:
+  line1: "Department of Information Science Technology"
+  line2: "University of Houston"
+  line3: "Houston, TX 77204"
+
+# Social links (leave blank to hide)
+social:
+  email: "you@example.edu"
+  google_scholar: ""
+  github: ""
+  twitter: ""
+  linkedin: ""
+  orcid: ""
+
+# Navigation; order shown in the header
+nav:
+  - { title: "Home",         url: "/" }
+  - { title: "People",       url: "/people/" }
+  - { title: "Research",     url: "/research/" }
+  - { title: "Publications", url: "/publications/" }
+  - { title: "News",         url: "/news/" }
+  - { title: "Teaching",     url: "/teaching/" }
+  - { title: "Open Positions", url: "/contact/" }
+
+# =============================================================================
+# Build settings; you generally do not need to edit anything below here
+# =============================================================================
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:title/
+timezone: America/New_York
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/news/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "person"
+
+collections:
+  people:
+    output: true
+    permalink: /people/:path/
+  projects:
+    output: true
+    permalink: /research/:path/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - .github

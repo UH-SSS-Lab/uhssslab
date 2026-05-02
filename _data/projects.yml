@@ -1,0 +1,32 @@
+# Research themes shown on the home page card grid and on /research/.
+# `slug` becomes the URL: /research/<slug>/
+# `icon` picks one of the built-in icons: chip, brain, shield, cpu, globe, lock
+# `tags` show as small mono pills on each card.
+
+- slug: mobile-wearable
+  title: Mobile & Wearable Systems
+  short: Authentication, pairing, and secure sensing for smartphones, wearables, and personal mobile systems.
+  icon: shield
+  tags: [Mobile, Wearable, Pairing]
+  image: /assets/img/projects/placeholder.png
+
+- slug: iot
+  title: Internet-of-Things
+  short: Zero-involvement pairing and authentication for the Internet-of-Things; context-based, secure, usable.
+  icon: chip
+  tags: [Internet-of-Things, ZIPA, Context-aware]
+  image: /assets/img/projects/placeholder.png
+
+- slug: vehicles
+  title: Advanced Vehicular Systems
+  short: Securing vehicle-to-vehicle, vehicle-to-pedestrian, and intra-vehicular device communication.
+  icon: car
+  tags: [V2V, V2P, TPMS]
+  image: /assets/img/projects/placeholder.png
+
+- slug: vr-xr
+  title: VR/XR & Immersive Computing
+  short: Trustworthy sensing and security for VR/XR environments and digital twins.
+  icon: brain
+  tags: [VR, XR, Digital Twins]
+  image: /assets/img/projects/placeholder.png

@@ -1,0 +1,16 @@
+---
+layout: page
+title: News
+permalink: /news/
+kicker: News
+subtitle: What's happening in the lab.
+---
+
+<ul class="news-list">
+  {% for item in site.data.news %}
+    <li class="news-item">
+      <div class="news-date">{{ item.date }}</div>
+      <div class="news-body">{{ item.body }}</div>
+    </li>
+  {% endfor %}
+</ul>

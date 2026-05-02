@@ -1,0 +1,116 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="container">
+
+  <header class="page-header">
+    <p class="kicker">// Research</p>
+    <p class="lead">
+      We study the security and privacy of the smart, connected, and
+      cyber-physical systems that increasingly run our world. Pick a card
+      to dive in.
+    </p>
+  </header>
+  <div class="research-grid">
+    {% for proj in site.data.projects limit:4 %}
+      <a class="research-card" href="{{ '/research/' | append: proj.slug | append: '/' | relative_url }}" data-icon="{{ proj.icon }}">
+
+        <div class="research-card-pattern" aria-hidden="true">
+          {% case proj.icon %}
+            {% when "chip" %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="dots-{{ proj.slug }}" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <circle cx="2" cy="2" r="1" fill="#C8102E"/>
+                  </pattern>
+                </defs>
+                <rect width="400" height="300" fill="url(#dots-{{ proj.slug }})"/>
+              </svg>
+            {% when "brain" %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#C8102E" stroke-width="0.6" fill="none" opacity=".6">
+                  <line x1="0" y1="80" x2="400" y2="200"/>
+                  <line x1="0" y1="160" x2="400" y2="60"/>
+                  <line x1="0" y1="240" x2="400" y2="280"/>
+                  <line x1="100" y1="0" x2="300" y2="300"/>
+                  <line x1="300" y1="0" x2="100" y2="300"/>
+                </g>
+              </svg>
+            {% when "shield" %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="diag-{{ proj.slug }}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                    <line x1="0" y1="0" x2="0" y2="14" stroke="#C8102E" stroke-width="1"/>
+                  </pattern>
+                </defs>
+                <rect width="400" height="300" fill="url(#diag-{{ proj.slug }})"/>
+              </svg>
+            {% when "cpu" %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="hex-{{ proj.slug }}" width="28" height="32" patternUnits="userSpaceOnUse">
+                    <polygon points="14,0 28,8 28,24 14,32 0,24 0,8" fill="none" stroke="#C8102E" stroke-width="0.7"/>
+                  </pattern>
+                </defs>
+                <rect width="400" height="300" fill="url(#hex-{{ proj.slug }})"/>
+              </svg>
+            {% when "globe" %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#C8102E" stroke-width="0.7" fill="none" opacity=".7">
+                  <ellipse cx="200" cy="150" rx="180" ry="60"/>
+                  <ellipse cx="200" cy="150" rx="180" ry="120"/>
+                  <ellipse cx="200" cy="150" rx="60" ry="180"/>
+                  <ellipse cx="200" cy="150" rx="120" ry="180"/>
+                </g>
+              </svg>
+            {% when "lock" %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <g font-family="ui-monospace, monospace" font-size="14" fill="#C8102E" opacity=".55">
+                  <text x="20" y="40">01001011 10110010</text>
+                  <text x="40" y="80">11010010 00111101</text>
+                  <text x="10" y="120">01101111 11010010</text>
+                  <text x="50" y="160">10110010 00101101</text>
+                  <text x="20" y="200">01001011 11010010</text>
+                  <text x="60" y="240">11010010 00111101</text>
+                  <text x="30" y="280">10110010 11010010</text>
+                </g>
+              </svg>
+            {% else %}
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="dots-{{ proj.slug }}" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <circle cx="2" cy="2" r="1" fill="#C8102E"/>
+                  </pattern>
+                </defs>
+                <rect width="400" height="300" fill="url(#dots-{{ proj.slug }})"/>
+              </svg>
+          {% endcase %}
+        </div>
+
+        {% if proj.tags %}
+          <div class="research-card-top">
+            <div class="research-card-tags">
+              {% for tag in proj.tags %}<span>{{ tag }}</span>{% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        <div class="research-card-body">
+          <h2>{{ proj.title }}</h2>
+          <p>{{ proj.short }}</p>
+        </div>
+
+        <div class="research-card-foot">
+          <span class="research-card-cta">
+            Explore
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+
+      </a>
+    {% endfor %}
+  </div>
+</div>

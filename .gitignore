@@ -1,0 +1,22 @@
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundler
+vendor/
+Gemfile.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Local working folders for raw uploads (originals; cropped/optimized
+# versions live under assets/img/ and are committed)
+paper_images/
+people_images/
+sponsor_logos/

@@ -1,0 +1,51 @@
+# Lab news. Newest first.
+# `date` is the display label (Month YYYY).
+# `body` is HTML; you can include <a> tags inline.
+
+- date: May 2026
+  body: "Kyu In received the Teaching Excellence Award from the Cullen College of Engineering for 2025-2026!"
+
+- date: Apr 2026
+  body: 'Two new <a href="/publications/">papers</a> from Haoran and Baqer accepted at Cyber Security and Resilience (IEEE CSR &rsquo;26).'
+
+- date: Nov 2025
+  body: "Congrats to Omar on winning the UTC Student of the Year Award at the 35th Annual Outstanding Student of the Year Awards (University Transportation Centers program)!"
+
+- date: Sep 2025
+  body: "Haoran and Hyejin joined our lab as PhD students. Welcome!"
+
+- date: Sep 2025
+  body: "Euijun (from Seoul National University) joined our lab as visiting researcher. Welcome!"
+
+- date: Aug 2025
+  body: 'Muhammad Baqer Mollah joined our lab as a postdoctoral researcher. Welcome!'
+
+- date: Aug 2025
+  body: 'New <a href="/publications/">paper</a> accepted at Future Machine Learning and Data Science (IEEE FMLDS &rsquo;25).'
+
+- date: Jun 2025
+  body: "Ahmad and Devayani joined our lab as visiting researchers. Welcome!"
+
+- date: May 2025
+  body: "Congrats to Omar on winning the best short paper award at SecureTrans &rsquo;25 workshop!"
+
+- date: May 2025
+  body: 'New <a href="/publications/">paper</a> accepted at Intelligent Mobile Computing (IEEE IMC &rsquo;25).'
+
+- date: Apr 2025
+  body: 'Two new <a href="/publications/">papers</a> accepted at Cyber Security and Resilience (IEEE CSR &rsquo;25).'
+
+- date: Mar 2025
+  body: 'New <a href="/publications/">paper</a> accepted at SecureTrans Workshop (SecureTrans &rsquo;25).'
+
+- date: Apr 2024
+  body: 'New <a href="/publications/">paper</a> accepted at Ubiquitous Robots (IEEE UR &rsquo;24).'
+
+- date: Jan 2024
+  body: "Nesochi, Tommy, and Ethan joined our lab as undergraduate researchers. Welcome!"
+
+- date: Jul 2023
+  body: "Two U.S. patents on context-based pairing and authentication granted."
+
+- date: May 2023
+  body: "Kyu In gave a talk at Security &amp; Strategic Trade Management Academy @ UH."

@@ -1,0 +1,471 @@
+# Publications
+# Order matches the SSS Lab publications page (newest first, then PDF order within each year).
+# Lab members wrapped in <strong>...</strong> render underlined.
+#
+# `themes`: subset of slugs from _data/projects.yml.
+# Available: mobile-wearable, iot, vehicles, vr-xr.
+
+# ===== 2026 =====
+
+- title: "ACTAUTH: Interaction-Triggered, Continuous User Authentication for Controller-Free Virtual Reality"
+  authors: "<strong>Haoran Li</strong>, <strong>Omar Achkar</strong>, George Zouridakis, Xin Fu, <strong>Kyu In Lee</strong>"
+  venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)
+  year: 2026
+  themes: [vr-xr, mobile-wearable]
+  figure: /assets/img/pubs/26_actauth_csr.png
+  pdf: ""
+  doi: ""
+  dataset: ""
+  bibtex: |
+    @inproceedings{actauth2026,
+      title     = {ACTAUTH: Interaction-Triggered, Continuous User Authentication for Controller-Free Virtual Reality},
+      author    = {Li, Haoran and Achkar, Omar and Zouridakis, George and Fu, Xin and Lee, Kyu In},
+      booktitle = {IEEE International Conference on Cyber Security and Resilience (CSR)},
+      year      = {2026},
+      note      = {To appear}
+    }
+  abstract: >-
+    ACTAUTH is a controller-free continuous user authentication framework for shared
+    VR headsets that recognizes users from natural hand-object interactions on
+    headset-native hand tracking, no controllers or external sensors required. Using
+    grab-and-release events as decision units, a proof-of-concept on Meta Quest 3S
+    achieves 94.32% true-acceptance at 2% FAR (0.09% EER) and detects 100% of simulated
+    session takeovers within a single imposter interaction.
+
+- title: "Securing the Lifeline: Enforcing Read and Write Access Control in Vehicular Safety Services"
+  authors: "<strong>Muhammad Baqer Mollah</strong>, George Zouridakis, <strong>Kyu In Lee</strong>"
+  venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)
+  year: 2026
+  themes: [vehicles]
+  figure: /assets/img/pubs/26_securing_CSR.png
+  pdf: ""
+  doi: ""
+  dataset: ""
+  bibtex: |
+    @inproceedings{lifeline2026,
+      title     = {Securing the Lifeline: Enforcing Read and Write Access Control in Vehicular Safety Services},
+      author    = {Mollah, Muhammad Baqer and Zouridakis, George and Lee, Kyu In},
+      booktitle = {IEEE International Conference on Cyber Security and Resilience (CSR)},
+      year      = {2026},
+      note      = {To appear}
+    }
+  abstract: >-
+    A security mechanism for Internet-of-Vehicles (IoV) safety services that uses access
+    control encryption to enforce both read (decrypt) and write (encrypt) policies on
+    safety messages, going beyond traditional authentication/integrity to support
+    fine-grained, contextual access by vehicle role, trust level, or proximity.
+    Evaluation shows reasonable computational overhead, making the scheme practical for
+    vehicular safety applications.
+
+# ===== 2025 =====
+
+- title: "LIMA: Leveraging Large Language Models and MCP Servers for Initial Machine Access"
+  authors: "<strong>Mohammad Ibrahim Saleem</strong>, <strong>Sohan Simha Prabhakar</strong>, Abhinav Harsha, Devayani Nagabhushan, William Arthur Conklin, <strong>Kyu In Lee</strong>, Tania Banerjee"
+  venue: IEEE International Conference on Future Machine Learning and Data Science (FMLDS)
+  year: 2025
+  themes: []
+  figure: /assets/img/pubs/25_LIMA_FMLDS.png
+  pdf: /papers_pdf/25_LIMA_FMLDS.pdf
+  doi: "https://ieeexplore.ieee.org/document/11446751"
+  dataset: ""
+  bibtex: |
+    @inproceedings{lima2025,
+      title     = {LIMA: Leveraging Large Language Models and MCP Servers for Initial Machine Access},
+      author    = {Saleem, Mohammad Ibrahim and Prabhakar, Sohan Simha and Harsha, Abhinav and Nagabhushan, Devayani and Conklin, William Arthur and Lee, Kyu In and Banerjee, Tania},
+      booktitle = {IEEE International Conference on Future Machine Learning and Data Science (FMLDS)},
+      year      = {2025}
+    }
+  abstract: >-
+    A penetration-testing framework that pairs off-the-shelf LLMs with Model Context
+    Protocol servers so the model can autonomously perform reconnaissance, enumeration, and
+    exploitation of an initial-access target. On HackTheBox machines Claude 3.5 finished
+    four boxes in ~13 minutes (up to 2x faster than expert testers) at under $0.05 per run,
+    providing the first quantitative baseline for AI-augmented penetration testing.
+
+- title: "PARAVIRT: Userland Containers for Mobile Systems"
+  authors: "Isaac Ahlgren, Yasin N. Silva, Eric Chan-Tin, George K. Thiruvathukal, <strong>Kyu In Lee</strong>, Neil Klingensmith"
+  venue: IEEE International Conference on Intelligent Mobile Computing (IMC)
+  year: 2025
+  themes: [mobile-wearable]
+  figure: /assets/img/pubs/25_Paravirt_IMC.png
+  pdf: /papers_pdf/25_Paravirt_IMC.pdf
+  doi: "https://ieeexplore.ieee.org/document/11220495"
+  dataset: ""
+  bibtex: |
+    @inproceedings{paravirt2025,
+      title     = {PARAVIRT: Userland Containers for Mobile Systems},
+      author    = {Ahlgren, Isaac and Silva, Yasin N. and Chan-Tin, Eric and Thiruvathukal, George K. and Lee, Kyu In and Klingensmith, Neil},
+      booktitle = {IEEE International Conference on Intelligent Mobile Computing (IMC)},
+      year      = {2025}
+    }
+  abstract: >-
+    PARAVIRT is a userland containerization framework for mobile operating systems that
+    isolates applications inside a standard runtime environment without requiring root
+    privileges. An optimized paravirtualization-inspired syscall interface yields up to
+    2.5x faster disk writes and 4 to 5.9x higher network throughput than User Mode Linux,
+    approaching the performance of full virtualization platforms.
+
+- title: "TPKey: Using TPMS Signals for Secure and Usable Intra-Vehicle Device Authentication"
+  authors: "<strong>Omar Achkar</strong>, <strong>Larry Nissen</strong>, <strong>Shahryar Raza</strong>, Rushikesh Shirsat, Neil Klingensmith, George Zouridakis, <strong>Kyu In Lee</strong>"
+  venue: IEEE International Conference on Cyber Security and Resilience (CSR)
+  year: 2025
+  themes: [vehicles]
+  figure: /assets/img/pubs/25_TPKey_CSR.png
+  pdf: /papers_pdf/25_TPKey_CSR.pdf
+  doi: "https://ieeexplore.ieee.org/document/11130079"
+  dataset: ""
+  bibtex: |
+    @inproceedings{tpkey2025,
+      title     = {TPKey: Using TPMS Signals for Secure and Usable Intra-Vehicle Device Authentication},
+      author    = {Achkar, Omar and Nissen, Larry and Raza, Shahryar and Shirsat, Rushikesh and Klingensmith, Neil and Zouridakis, George and Lee, Kyu In},
+      booktitle = {IEEE International Conference on Cyber Security and Resilience (CSR)},
+      year      = {2025}
+    }
+  abstract: >-
+    TPKEY is a zero-involvement authentication protocol that extracts high-entropy keys
+    from a vehicle's tire-pressure-monitoring-system (TPMS) RF signals, accessible only
+    inside the cabin. It achieves 100% authentication success on legitimate devices, 0%
+    false acceptance against adversaries, and 1.3-second key generation across varied
+    driving conditions.
+
+- title: "Not-so-Secret Authentication: The SyncBleed Attacks and Defenses for Zero-Involvement Authentication Systems"
+  authors: "Isaac Ahlgren, Rushikesh Shirsat, <strong>Omar Achkar</strong>, George K. Thiruvathukal, <strong>Kyu In Lee</strong>, Neil Klingensmith"
+  venue: IEEE International Conference on Cyber Security and Resilience (CSR)
+  year: 2025
+  themes: [iot]
+  figure: /assets/img/pubs/25_Syncbleed_CSR.png
+  pdf: /papers_pdf/25_Syncbleed_CSR.pdf
+  doi: "https://ieeexplore.ieee.org/document/11130070"
+  dataset: ""
+  bibtex: |
+    @inproceedings{syncbleed2025,
+      title     = {Not-so-Secret Authentication: The SyncBleed Attacks and Defenses for Zero-Involvement Authentication Systems},
+      author    = {Ahlgren, Isaac and Shirsat, Rushikesh and Achkar, Omar and Thiruvathukal, George K. and Lee, Kyu In and Klingensmith, Neil},
+      booktitle = {IEEE International Conference on Cyber Security and Resilience (CSR)},
+      year      = {2025}
+    }
+  abstract: >-
+    Identifies SyncBleed, a passive attack on zero-involvement authentication systems that
+    exploits synchronization messages exchanged over public wireless channels, recovering
+    ~50% of generated keys in under one second. Introduces TREVOR (Time-shift REsistant
+    VEctor ExtractOR), which produces nearly identical bit sequences from environmental
+    signals with no synchronization exchange and 90-95% bit agreement, fully resisting
+    SyncBleed.
+
+- title: "In-Progress: Exploring Tire Pressure Monitoring Systems (TPMS) for Secure Key Generation for Intra-Vehicular Device Authentication"
+  authors: "<strong>Omar Achkar</strong>, <strong>Shahryar Raza</strong>, <strong>James McAvoy</strong>, Rushikesh Shirsat, Neil Klingensmith, <strong>Kyu In Lee</strong>"
+  venue: IEEE Symposium on Security and Privacy Workshops (SPW)
+  year: 2025
+  themes: [vehicles]
+  award: "Best Short Paper, SecureTrans Workshop"
+  figure: /assets/img/pubs/25_inprogress_SPW.png
+  pdf: /papers_pdf/25_inprogress_SPW.pdf
+  doi: "https://ieeexplore.ieee.org/document/11050822"
+  dataset: ""
+  bibtex: |
+    @inproceedings{inprogresstpms2025,
+      title     = {In-Progress: Exploring Tire Pressure Monitoring Systems (TPMS) for Secure Key Generation for Intra-Vehicular Device Authentication},
+      author    = {Achkar, Omar and Raza, Shahryar and McAvoy, James and Shirsat, Rushikesh and Klingensmith, Neil and Lee, Kyu In},
+      booktitle = {IEEE Symposium on Security and Privacy Workshops (SPW)},
+      year      = {2025}
+    }
+  abstract: >-
+    Early exploration of using Tire Pressure Monitoring System (TPMS) RF transmissions as a
+    source of environmental randomness for automotive authentication. Experiments show 95%
+    bit-agreement among legitimate in-cabin devices versus 50% for external adversaries,
+    suggesting TPMS-based zero-interaction authentication is a practical direction for
+    modern vehicles.
+
+# ===== 2024 =====
+
+- title: "Ground-Relative Positioning in 3D Pose Estimation: A Novel Approach for Real-World Alignment of Skeleton Data"
+  authors: "Myeongseop Kim, Kim Taehyeon, Jean Oh, <strong>Kyu In Lee</strong>, Kyung-Taek Lee"
+  venue: IEEE International Conference on Ubiquitous Robots (UR)
+  year: 2024
+  themes: []
+  figure: /assets/img/pubs/24_skeleton_UR.png
+  pdf: /papers_pdf/24_skeleton_UR.pdf
+  doi: "https://ras.papercept.net/conferences/scripts/rtf/UR24_ContentListWeb_2.html"
+  dataset: ""
+  bibtex: |
+    @inproceedings{groundrelative2024,
+      title     = {Ground-Relative Positioning in 3D Pose Estimation: A Novel Approach for Real-World Alignment of Skeleton Data},
+      author    = {Kim, Myeongseop and Taehyeon, Kim and Oh, Jean and Lee, Kyu In and Lee, Kyung-Taek},
+      booktitle = {IEEE International Conference on Ubiquitous Robots (UR)},
+      year      = {2024}
+    }
+  abstract: >-
+    Introduces Dynamic Ground Alignment (DGA), a 3D pose-estimation algorithm built on
+    Mediapipe Pose that uses body-centered 3D landmarks to align digital characters with
+    the ground plane in virtual environments. Improves character grounding for animation,
+    virtual reality, sports science, physical therapy, and ergonomic studies.
+
+- title: A Signal Injection Attack Against Zero Involvement Pairing and Authentication for the Internet of Things
+  authors: "Isaac Ahlgren, Jack West, <strong>Kyuin Lee</strong>, George K. Thiruvathukal, Neil Klingensmith"
+  venue: ACM/IEEE Workshop on Design Automation for CPS and IoT (DESTION)
+  year: 2024
+  themes: [iot]
+  figure: /assets/img/pubs/24_injection_DESTION.png
+  pdf: /papers_pdf/24_injection_DESTION.pdf
+  doi: "https://ieeexplore.ieee.org/document/10564816"
+  dataset: ""
+  bibtex: |
+    @inproceedings{injection2024,
+      title     = {A Signal Injection Attack Against Zero Involvement Pairing and Authentication for the Internet of Things},
+      author    = {Ahlgren, Isaac and West, Jack and Lee, Kyuin and Thiruvathukal, George K. and Klingensmith, Neil},
+      booktitle = {ACM/IEEE Workshop on Design Automation for CPS and IoT (DESTION)},
+      year      = {2024}
+    }
+  abstract: >-
+    Demonstrates the first successful signal-injection attack on a zero-involvement pairing
+    and authentication (ZIPA) system, exploiting environmental signal leakage from
+    unsecured spaces into secured ones. The attacker's keys at 95 dBA fall within the
+    standard error of the legitimate device, breaking the implicit physical-isolation
+    assumption of popular ZIPA algorithms.
+
+# ===== 2022 =====
+
+- title: "Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach"
+  authors: "Jakob Veselsky, Jack West, Isaac Ahlgren, Abhinav Goel, Wenxin Jiang, <strong>Kyuin Lee</strong>, Younghyun Kim, James Davis, George K. Thiruvathukal, Neil Klingensmith"
+  venue: IEEE Workshop on Data-Driven and Intelligent Cyber-Physical Systems (DI-CPS)
+  year: 2022
+  themes: [vehicles]
+  figure: /assets/img/pubs/22_V2V_DI-CPS.png
+  pdf: /papers_pdf/22_V2V_DI-CPS.pdf
+  doi: "https://ieeexplore.ieee.org/document/9805359"
+  dataset: ""
+  bibtex: |
+    @inproceedings{v2v2022,
+      title     = {Establishing Trust in Vehicle-to-Vehicle Coordination: A Sensor Fusion Approach},
+      author    = {Veselsky, Jakob and West, Jack and Ahlgren, Isaac and Goel, Abhinav and Jiang, Wenxin and Lee, Kyuin and Kim, Younghyun and Davis, James and Thiruvathukal, George K. and Klingensmith, Neil},
+      booktitle = {IEEE Workshop on Data-Driven and Intelligent Cyber-Physical Systems (DI-CPS)},
+      pages     = {7--13},
+      year      = {2022}
+    }
+  abstract: >-
+    A sensor-fusion approach to V2V trust establishment that combines GPS and visual data
+    so an autonomous vehicle can verify a peer is physically nearby, no infrastructure or
+    third-party root of trust required. Preliminary experiments achieve >80% successful
+    pairing of two legitimate vehicles observing the same object within 5 meters of error.
+
+- title: "AeroKey: Using Ambient Electromagnetic Radiation for Secure and Usable Wireless Device Authentication"
+  authors: "<strong>Kyuin Lee</strong>, Yucheng Yang, Omkar Prabhune, Aishwarya Lekshmi Chithra, Jack West, Kassem Fawaz, Neil Klingensmith, Suman Banerjee, Younghyun Kim"
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+  year: 2022
+  themes: [mobile-wearable, iot]
+  figure: /assets/img/pubs/22_AeroKey_IMWUT.png
+  pdf: /papers_pdf/22_AeroKey_IMWUT.pdf
+  doi: "https://dl.acm.org/doi/10.1145/3517254"
+  dataset: ""
+  bibtex: |
+    @article{aerokey2022,
+      title   = {AeroKey: Using Ambient Electromagnetic Radiation for Secure and Usable Wireless Device Authentication},
+      author  = {Lee, Kyuin and Yang, Yucheng and Prabhune, Omkar and Chithra, Aishwarya Lekshmi and West, Jack and Fawaz, Kassem and Klingensmith, Neil and Banerjee, Suman and Kim, Younghyun},
+      journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+      volume  = {6},
+      number  = {1},
+      year    = {2022}
+    }
+  abstract: >-
+    AeroKey is an over-the-air device authentication scheme that derives spatiotemporally
+    unique secrets from ambient electromagnetic radiation, allowing co-located low-cost MCU
+    devices to autonomously establish a shared symmetric key with no user involvement.
+    Real-world experiments report equal-error rates of 3.4% or below and authentication
+    times as low as 24 seconds.
+
+- title: "Secure, Usable and Practical Authentication for the Internet of Things"
+  authors: "<strong>Kyuin Lee</strong>"
+  venue: PhD Dissertation, University of Wisconsin-Madison
+  year: 2022
+  themes: [iot]
+  figure: /assets/img/pubs/22_dissertation.png
+  pdf: /papers_pdf/22_dissertation.pdf
+  doi: "https://www.proquest.com/openview/b6441c5e79a8feb680e512c9e78ca01a/1?pq-origsite=gscholar&cbl=18750&diss=y"
+  dataset: ""
+  bibtex: |
+    @phdthesis{leedissertation2022,
+      title  = {Secure, Usable and Practical Authentication for the Internet of Things},
+      author = {Lee, Kyuin},
+      school = {University of Wisconsin--Madison},
+      year   = {2022}
+    }
+  abstract: >-
+    PhD dissertation on secure, usable, and practical authentication for IoT devices.
+    Develops zero-involvement pairing and authentication methods that derive shared keys
+    from co-located physical context (power-line noise, ambient electromagnetic radiation,
+    vibration), with new randomness distillers, threat models for context-based key
+    extraction, and field deployments across smart-home, vehicular, and wearable settings.
+
+# ===== 2021 =====
+
+- title: Balancing Security and Usability of Zero-interaction Pairing and Authentication for the Internet-of-Things
+  authors: "<strong>Kyuin Lee</strong>, Younghyun Kim"
+  venue: ACM Workshop on CPS & IoT Security and Privacy (CPSIoTSec)
+  year: 2021
+  themes: [iot]
+  figure: /assets/img/pubs/21_zia_CPSIoTSec.png
+  pdf: /papers_pdf/21_zia_CPSIoTSec.pdf
+  doi: "https://dl.acm.org/doi/10.1145/3462633.3483977"
+  dataset: ""
+  bibtex: |
+    @inproceedings{balancing2021,
+      title     = {Balancing Security and Usability of Zero-interaction Pairing and Authentication for the Internet-of-Things},
+      author    = {Lee, Kyuin and Kim, Younghyun},
+      booktitle = {ACM Workshop on CPS \& IoT Security and Privacy (CPSIoTSec)},
+      pages     = {29--34},
+      year      = {2021}
+    }
+  abstract: >-
+    Surveys the security-vs-usability trade-off in zero-interaction pairing and
+    authentication (ZIPA) for IoT, and proposes a generic key-reconciliation framework
+    parameterized by a user-given authentication range. Compares the two most common
+    reconciliation schemes for security, usability, and computation overhead.
+
+- title: "PEDRO: Secure Pedestrian Mobility Verification in V2P Communication using COTS Mobile Devices"
+  authors: "Yucheng Yang*, <strong>Kyuin Lee</strong>*, Younghyun Kim, Kassem Fawaz"
+  venue: ACM Workshop on CPS & IoT Security and Privacy (CPSIoTSec)
+  year: 2021
+  themes: [vehicles, mobile-wearable]
+  figure: /assets/img/pubs/21_PEDRO_CPSIoTSec.png
+  pdf: /papers_pdf/21_PEDRO_CPSIoTSec.pdf
+  doi: "https://dl.acm.org/doi/10.1145/3462633.3483980"
+  dataset: ""
+  bibtex: |
+    @inproceedings{pedro2021,
+      title     = {PEDRO: Secure Pedestrian Mobility Verification in V2P Communication using COTS Mobile Devices},
+      author    = {Yang, Yucheng and Lee, Kyuin and Kim, Younghyun and Fawaz, Kassem},
+      booktitle = {ACM Workshop on CPS \& IoT Security and Privacy (CPSIoTSec)},
+      pages     = {41--46},
+      year      = {2021}
+    }
+  abstract: >-
+    PEDRO verifies that a V2P node claiming to be a pedestrian is actually a co-located
+    mobile device, using round-trip wireless timing between vehicles and commodity
+    pedestrian devices to admit moving devices and reject static (likely remote) malicious
+    ones. Verification runs in under 8 seconds with an 8.5% Equal Error Rate in regular
+    road environments. (* Equal contribution by Yang and Lee.)
+
+- title: "Moonshine: An Online Randomness Distiller for Zero-Involvement Authentication"
+  authors: "Jack West, <strong>Kyuin Lee</strong>, Suman Banerjee, Younghyun Kim, George K. Thiruvathukal, Neil Klingensmith"
+  venue: ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)
+  year: 2021
+  themes: [iot]
+  figure: /assets/img/pubs/21_Moonshine_IPSN.png
+  pdf: /papers_pdf/21_Moonshine_IPSN.pdf
+  doi: "https://dl.acm.org/doi/10.1145/3412382.3458899"
+  dataset: ""
+  bibtex: |
+    @inproceedings{moonshine2021,
+      title     = {Moonshine: An Online Randomness Distiller for Zero-Involvement Authentication},
+      author    = {West, Jack and Lee, Kyuin and Banerjee, Suman and Kim, Younghyun and Thiruvathukal, George K. and Klingensmith, Neil},
+      booktitle = {ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},
+      pages     = {93--105},
+      year      = {2021}
+    }
+  abstract: >-
+    Studies the information-theoretic capacity of context-based key extraction and shows
+    that commonly used bit extractors recover only ~10% of the available randomness from
+    environmental noise. Moonshine is a randomness distiller that nearly doubles key
+    quality on the NIST test suite using real key-extraction hardware.
+
+# ===== 2020 =====
+
+- title: "ivPair: Context-Based Fast Intra-Vehicle Device Pairing for Secure Wireless Connectivity"
+  authors: "<strong>Kyuin Lee</strong>, Neil Klingensmith, Dong He, Suman Banerjee, Younghyun Kim"
+  venue: ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)
+  year: 2020
+  themes: [vehicles]
+  figure: /assets/img/pubs/20_ivPair_WiSec.png
+  pdf: /papers_pdf/20_ivPair_WiSec.pdf
+  doi: "https://dl.acm.org/doi/10.1145/3395351.3399436"
+  patent: "https://patents.google.com/patent/US11617085B2/en"
+  dataset: ""
+  bibtex: |
+    @inproceedings{ivpair2020,
+      title     = {ivPair: Context-Based Fast Intra-Vehicle Device Pairing for Secure Wireless Connectivity},
+      author    = {Lee, Kyuin and Klingensmith, Neil and He, Dong and Banerjee, Suman and Kim, Younghyun},
+      booktitle = {ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)},
+      pages     = {25--30},
+      year      = {2020}
+    }
+  abstract: >-
+    ivPair pairs a phone with a vehicle's infotainment system by extracting an identical
+    pin from the cabin's vibration response, driven by driver behavior, vehicle type, and
+    road conditions. Experiments across realistic driving conditions show high in-cabin
+    pairing success and effective rejection of proximate adversaries.
+
+- title: Approximate Hardware Techniques for Energy-Quality Scaling Across the System
+  authors: "Younghyun Kim, Joshua San Miguel, Setareh Behroozi, Tianen Chen, <strong>Kyuin Lee</strong>, Yongwoo Lee, Jingjie Li, Di Wu"
+  venue: IEIE/IEEE International Conference on Electronics, Information, and Communication (ICEIC)
+  year: 2020
+  themes: []
+  figure: /assets/img/pubs/20_Approx_ICEIC.png
+  pdf: /papers_pdf/20_Approx_ICEIC.pdf
+  doi: "https://ieeexplore.ieee.org/document/9051208"
+  dataset: ""
+  bibtex: |
+    @inproceedings{approx2020,
+      title     = {Approximate Hardware Techniques for Energy-Quality Scaling Across the System},
+      author    = {Kim, Younghyun and San Miguel, Joshua and Behroozi, Setareh and Chen, Tianen and Lee, Kyuin and Lee, Yongwoo and Li, Jingjie and Wu, Di},
+      booktitle = {IEIE/IEEE International Conference on Electronics, Information, and Communication (ICEIC)},
+      pages     = {1--5},
+      year      = {2020}
+    }
+  abstract: >-
+    A taxonomy of approximate-hardware techniques that trade output quality for energy
+    efficiency across processors and logic, memory, I/O, and interconnects. The work
+    classifies techniques by target subsystem and by support for runtime energy-quality
+    scaling.
+
+# ===== 2019 =====
+
+- title: "VoltKey: Continuous Secret Key Generation Based on Power Line Noise for Zero-Involvement Pairing and Authentication"
+  authors: "<strong>Kyuin Lee</strong>, Neil Klingensmith, Suman Banerjee, Younghyun Kim"
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+  year: 2019
+  themes: [iot]
+  figure: /assets/img/pubs/19_VoltKey_IMWUT.png
+  pdf: /papers_pdf/19_VoltKey_IMWUT.pdf
+  doi: "https://dl.acm.org/doi/10.1145/3351251"
+  patent: "https://patents.google.com/patent/US11700120B2/en"
+  dataset: ""
+  bibtex: |
+    @article{voltkey2019,
+      title   = {VoltKey: Continuous Secret Key Generation Based on Power Line Noise for Zero-Involvement Pairing and Authentication},
+      author  = {Lee, Kyuin and Klingensmith, Neil and Banerjee, Suman and Kim, Younghyun},
+      journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
+      volume  = {3},
+      number  = {3},
+      pages   = {93:1--93:26},
+      year    = {2019}
+    }
+  abstract: >-
+    VoltKey continuously derives shared secret keys for co-located devices from the
+    spatiotemporally unique noise on a local power line. Deployable as a USB-power add-on
+    for IoT devices and access points, it achieves over 90% pairing success while rejecting
+    devices on nearby (but separate) power lines.
+
+# ===== 2018 =====
+
+- title: "SyncVibe: Fast and Secure Device Pairing through Physical Vibration on Commodity Smartphones"
+  authors: "<strong>Kyuin Lee</strong>, Vijay Raghunathan, Anand Raghunathan, Younghyun Kim"
+  venue: IEEE International Conference on Computer Design (ICCD)
+  year: 2018
+  themes: [mobile-wearable]
+  figure: /assets/img/pubs/18_SyncVibe_ICCD.png
+  pdf: /papers_pdf/18_SyncVibe_ICCD.pdf
+  doi: "https://ieeexplore.ieee.org/document/8615693"
+  dataset: ""
+  bibtex: |
+    @inproceedings{syncvibe2018,
+      title     = {SyncVibe: Fast and Secure Device Pairing through Physical Vibration on Commodity Smartphones},
+      author    = {Lee, Kyuin and Raghunathan, Vijay and Raghunathan, Anand and Kim, Younghyun},
+      booktitle = {IEEE International Conference on Computer Design (ICCD)},
+      pages     = {234--241},
+      year      = {2018}
+    }
+  abstract: >-
+    SyncVibe is an out-of-band pairing channel that uses a phone's vibration motor and
+    accelerometer to transmit pairing data through direct device contact. A vibration
+    clock-recovery technique maintains synchronization across varied noise and transmission
+    media, enabling fast, secure, high-bandwidth pairing without manual passkey entry.

@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<article class="person-page container">
+
+  <header class="person-page-header">
+    <div class="person-page-photo">
+      <img src="{{ page.photo | default: '/assets/img/people/placeholder.png' | relative_url }}" alt="{{ page.name }}">
+    </div>
+    <div class="person-page-info">
+      <p class="kicker">// {{ page.role | default: 'Lab member' }}</p>
+      <h1>{{ page.name }}</h1>
+      {% if page.tagline %}<p class="lead">{{ page.tagline }}</p>{% endif %}
+
+      <div class="person-actions">
+        {% if page.cv %}<a class="btn btn-glow" href="{{ page.cv | relative_url }}">CV (PDF)</a>{% endif %}
+        {% if page.email %}<a class="btn" href="mailto:{{ page.email }}">Email</a>{% endif %}
+        {% if page.scholar %}<a class="btn" href="{{ page.scholar }}" rel="noopener">Google Scholar</a>{% endif %}
+        {% if page.github %}<a class="btn" href="{{ page.github }}" rel="noopener">GitHub</a>{% endif %}
+        {% if page.linkedin %}<a class="btn" href="{{ page.linkedin }}" rel="noopener">LinkedIn</a>{% endif %}
+        {% if page.twitter %}<a class="btn" href="{{ page.twitter }}" rel="noopener">Twitter</a>{% endif %}
+        {% if page.website %}<a class="btn" href="{{ page.website }}" rel="noopener">Website</a>{% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="person-grid">
+    <div class="person-main">
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </div>
+    <aside class="person-side">
+      {% if page.education %}
+        <section class="person-side-block">
+          <h3>Education</h3>
+          <ul>
+            {% for ed in page.education %}
+              <li>
+                <strong>{{ ed.degree }}</strong>
+                <span class="muted">{{ ed.school }}{% if ed.year %} · {{ ed.year }}{% endif %}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if page.appointments %}
+        <section class="person-side-block">
+          <h3>Appointments</h3>
+          <ul>
+            {% for ap in page.appointments %}
+              <li>
+                <strong>{{ ap.title }}</strong>
+                <span class="muted">{{ ap.org }}{% if ap.years %} · {{ ap.years }}{% endif %}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if page.interests %}
+        <section class="person-side-block">
+          <h3>Research interests</h3>
+          <ul class="tag-list">
+            {% for i in page.interests %}<li>{{ i }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if page.awards %}
+        <section class="person-side-block">
+          <h3>Awards</h3>
+          <ul>
+            {% for a in page.awards %}<li>{{ a }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if page.service %}
+        <section class="person-side-block">
+          <h3>Service</h3>
+          <ul>
+            {% for s in page.service %}<li>{{ s }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    </aside>
+  </div>
+
+  <p class="post-back"><a href="{{ '/people/' | relative_url }}">&larr; All people</a></p>
+</article>

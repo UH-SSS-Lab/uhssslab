@@ -1,0 +1,29 @@
+# Sponsors / funding agencies shown on the home page.
+#
+# To add a sponsor:
+# 1. Drop the logo (PNG with transparent background preferred) into
+#    /assets/img/sponsors/. Lowercase filenames, no spaces.
+# 2. Add a block below with name, logo path, and optional url.
+#
+# To remove a sponsor: delete its block.
+# To reorder: rearrange the blocks (top-down = left-right on the page).
+
+- name: University of Houston
+  full_name: University of Houston, Division of Research
+  logo: /assets/img/sponsors/uh.png
+  url: https://www.uh.edu/research/
+
+- name: CyberCARE
+  full_name: UH CyberCARE
+  logo: /assets/img/sponsors/cybercare.png
+  url: https://www.uh.edu/cybercare/
+
+- name: DOT
+  full_name: U.S. Department of Transportation
+  logo: /assets/img/sponsors/dot.png
+  url: https://www.transportation.gov/
+
+- name: Hyundai
+  full_name: Hyundai Motor Group
+  logo: /assets/img/sponsors/hyundai.jpg
+  url: https://www.hyundai.com/
