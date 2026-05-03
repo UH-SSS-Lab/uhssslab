@@ -8,6 +8,7 @@
 # `slug` makes the card clickable. Create _people/<slug>.md for the detail page.
 
 - name: Kyu In Lee, PhD
+  slug: kyuinlee
   category: PI
   role: Principal Investigator
   photo: /assets/img/pi-headshot.jpg

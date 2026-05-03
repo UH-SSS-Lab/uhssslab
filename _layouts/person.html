@@ -13,13 +13,11 @@ layout: default
       {% if page.tagline %}<p class="lead">{{ page.tagline }}</p>{% endif %}
 
       <div class="person-actions">
-        {% if page.cv %}<a class="btn btn-glow" href="{{ page.cv | relative_url }}">CV (PDF)</a>{% endif %}
-        {% if page.email %}<a class="btn" href="mailto:{{ page.email }}">Email</a>{% endif %}
-        {% if page.scholar %}<a class="btn" href="{{ page.scholar }}" rel="noopener">Google Scholar</a>{% endif %}
-        {% if page.github %}<a class="btn" href="{{ page.github }}" rel="noopener">GitHub</a>{% endif %}
-        {% if page.linkedin %}<a class="btn" href="{{ page.linkedin }}" rel="noopener">LinkedIn</a>{% endif %}
-        {% if page.twitter %}<a class="btn" href="{{ page.twitter }}" rel="noopener">Twitter</a>{% endif %}
-        {% if page.website %}<a class="btn" href="{{ page.website }}" rel="noopener">Website</a>{% endif %}
+        {% if page.cv %}<a class="btn btn-glow" href="{{ page.cv | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a>{% endif %}
+        {% if page.email %}<a class="btn" href="mailto:{{ page.email }}" target="_blank" rel="noopener">Email</a>{% endif %}
+        {% if page.faculty_page %}<a class="btn" href="{{ page.faculty_page }}" target="_blank" rel="noopener">UH Faculty Page</a>{% endif %}
+        {% if page.scholar %}<a class="btn" href="{{ page.scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+        {% if page.linkedin %}<a class="btn" href="{{ page.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
       </div>
     </div>
   </header>
@@ -31,6 +29,13 @@ layout: default
       </div>
     </div>
     <aside class="person-side">
+      {% if page.office %}
+        <section class="person-side-block">
+          <h3>Office</h3>
+          <p class="person-side-office">{{ page.office }}</p>
+        </section>
+      {% endif %}
+
       {% if page.education %}
         <section class="person-side-block">
           <h3>Education</h3>

@@ -899,11 +899,16 @@ blockquote {
   margin-bottom: 2rem;
 }
 .person-main h2 {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: -.015em;
-  margin: 1.75em 0 .5em;
+  font-family: var(--font-mono);
+  font-size: .82rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+  margin: 2.25rem 0 .75rem;
+}
+.person-main h2::before {
+  content: "// ";
 }
 .person-main h2:first-child { margin-top: 0; }
 .person-main h3 {
@@ -928,13 +933,22 @@ blockquote {
 }
 .person-side-block:last-child { border-bottom: none; }
 .person-side h3 {
-  font-family: var(--font-display);
+  font-family: var(--font-mono);
   font-size: .82rem;
-  font-weight: 600;
-  letter-spacing: .12em;
+  font-weight: 500;
+  letter-spacing: .08em;
   text-transform: uppercase;
   color: var(--c-accent);
   margin: 0 0 .85rem;
+}
+.person-side h3::before {
+  content: "// ";
+}
+.person-side-office {
+  color: var(--c-text);
+  font-size: .94rem;
+  line-height: 1.5;
+  margin: 0;
 }
 .person-side ul {
   list-style: none;

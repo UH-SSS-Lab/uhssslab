@@ -7,92 +7,80 @@ photo: /assets/img/pi-headshot.jpg
 tagline: Securing the smart, connected, and cyber-physical systems that increasingly run our world.
 
 # Contact / links; leave blank to hide the corresponding button
-email: klee48@cougarnet.uh.edu
-website: ""
-scholar: ""
-github: ""
+email: ""
+faculty_page: https://www.ist.uh.edu/faculty/lee-kyuin
+scholar: https://scholar.google.com/citations?user=2tmnfmgAAAAJ
 linkedin: https://www.linkedin.com/in/kyuin-lee-494940112/
-twitter: ""
-cv: /assets/cv/kyuinlee-cv.pdf
+cv: ""
 
 # Sidebar content; edit or remove sections freely
 education:
-  - degree: PhD in [Field]
-    school: [University]
-    year: 2020
-  - degree: MS in [Field]
-    school: [University]
-    year: 2015
-  - degree: BS in [Field]
-    school: [University]
-    year: 2013
+  - degree: PhD in Electrical and Computer Engineering
+    school: University of Wisconsin-Madison
+    year: 2022
+  - degree: MS in Electrical and Computer Engineering
+    school: Carnegie Mellon University
+    year: 2017
+  - degree: BS in Electrical and Computer Engineering
+    school: Carnegie Mellon University
+    year: 2016
 
 appointments:
-  - title: Assistant Professor
-    org: University of Houston, College of Technology
-    years: 2021-present
+  - title: Assistant Professor, Information Science Technology
+    org: University of Houston
+    years: 2022-present
+  - title: Software Engineering Intern, KNOX Security
+    org: Samsung Research America
+    years: 2016
 
-interests:
-  - IoT and embedded security
-  - Machine learning for security
-  - Hardware and side-channel analysis
-  - Cyber-physical systems
-  - Privacy-preserving computation
-
-awards:
-  - "[Award name], 2025"
-  - "[Award name], 2024"
-  - "[Best Paper Award], [Conference] 2023"
-
-service:
-  - "Program Committee, [Conference] 2026"
-  - "Reviewer, [Journal]"
+office: |
+  13850 University Blvd, Suite 314<br>
+  Sugar Land, TX 77479
 ---
 
 ## Biography
 
-Replace this with one to three paragraphs about yourself. A typical PI bio
-covers: research focus, background and training, current role and what you
-work on, and a sentence or two of context that explains why this research
-matters.
+Dr. Lee is currently an Assistant Professor in the Department of Information Science Technology, Cullen College of Engineering at the University of Houston. He obtained his Ph.D. in Electrical and Computer Engineering from University of Wisconsin-Madison in 2022. His research interests broadly lie in the security and privacy of smart, connected, and cyber-physical systems. Active projects span mobile and wearable systems, Internet-of-Things, advanced vehicular systems (V2V, V2P, and intra-vehicle), and VR/XR and immersive computing. Across these areas, his lab develops secure and usable authentication, pairing, and sensing primitives that leverage real-world physical context to prove device coexistence and resist remote adversaries.
 
-For example: *Kyu In Lee is the Principal Investigator of the Smart Systems
-Security Laboratory at the University of Houston. His research investigates
-the security and privacy of [specific systems], with an emphasis on [specific
-methods or threat models]. Before joining UH, he completed his PhD at
-[University] under [advisor].*
+## Awards & Honors
 
-## Research
+- **Teaching Excellence Award**, Cullen College of Engineering, University of Houston, 2025-2026
+- **The President's Circle Awards (Major Grant)**, University of Houston, 2025
+- **Best Short Paper Award**, SecureTrans Workshop @ IEEE S&P, 2025
+- **CPS (Cyber-Physical Systems) Rising Star**, CPS-VO @ National Science Foundation, 2022
+- **ECE Fall Dissertator Travel Award**, UW-Madison, 2021
+- **Student Research Grants Competition**, UW-Madison, 2019
+- **Richard Newton Young Fellow Award**, Design Automation Conference, 2019
+- **NSF Travel Grant**, International Conference on Computer Design, 2018
+- **Best Demonstration Award (SIGDA University Demo)**, Design Automation Conference, 2018
+- **ECE Wisconsin Distinguished Graduate Fellowship**, UW-Madison, 2017
+- **Osher Lifelong Learning Institute Award**, Meeting of the Minds Research Symposium, 2017
 
-A short paragraph describing the lab's research direction. You can repeat
-content from the home page or extend it with more detail here. Include
-links to specific projects:
-[Mobile & Wearable Systems]({{ '/research/mobile-wearable/' | relative_url }}),
-[Internet-of-Things]({{ '/research/iot/' | relative_url }}),
-[Advanced Vehicular Systems]({{ '/research/vehicles/' | relative_url }}),
-[VR/XR]({{ '/research/vr-xr/' | relative_url }}).
+## Professional Service
 
-## Selected publications
+- IEEE Transactions on Dependable and Secure Computing — Reviewer
+- IEEE International Conference on Cyber Security and Resilience '24 — Reviewer
+- International Conference on Vehicular Systems '24 — Technical Program Committee Member
+- Electronics '24, Application of Authentication Scheme in Network Security — Guest Editor
+- International Conference on Mobility, Sensing and Networking '24 — Reviewer
+- Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) — Reviewer
+- Electronics — Reviewer
+- Design Automation Conference (DAC) — External Reviewer
+- Asia and South Pacific Design Automation Conference — External Reviewer
+- International Symposium on Low Power Electronics and Design — External Reviewer
+- Symposium on Applied Computing — External Reviewer
+- International Conference on VLSI Design — External Reviewer
+- ACM Transactions on Embedded Computing Systems — External Reviewer
+- **Membership:** Korean-American Scientists and Engineers Association (KSEA)
 
-For an automatically curated list, see the
-[Publications page]({{ '/publications/' | relative_url }}). Highlight a
-handful here:
+## University of Houston Service
 
-- *Paper title*. Authors. *Venue.* [PDF](#) · [DOI](#)
-- *Paper title*. Authors. *Venue.* [PDF](#)
-
-## Talks
-
-- *Talk title*. Venue, 2026.
-- *Talk title*. Venue, 2025.
+- CIS Faculty Search Committee — Committee Member (Fall 2025)
+- Cybersecurity Faculty Search Committee — Committee Chair (Fall 2024)
+- Cybersecurity Faculty Search Committee — Committee Member (Fall 2023)
+- CIS Faculty Search — Interviewer (Spring 2023)
+- CIS 2337, CIS 6321, CIS 4357 — Course Coordinator (Fall 2022 - Fall 2024)
 
 ## Teaching
 
-A line about courses you regularly teach. See the
-[Teaching page]({{ '/teaching/' | relative_url }}) for the full list.
-
----
-
-To edit this page, open `_people/kyuinlee.md`. Add, remove, or reorder any
-section. The sidebar fields (education, awards, etc.) live in the front
-matter at the top.
+Dr. Lee teaches Fundamentals of Information Security (CIS 2337), Principles of Cybersecurity (CIS 6321), and Digital Forensics (CIS 4357) at the University of Houston. See the [Teaching page]({{ '/teaching/' | relative_url }}) for the full list of courses and semesters offered.
