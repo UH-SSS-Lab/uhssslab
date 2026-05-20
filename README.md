@@ -1,7 +1,5 @@
 # UHSSS Lab website
 
-<!-- push-test: please ignore -->
-
 A Jekyll site for the UHSSS Lab. Hosted free on GitHub Pages, served from
 `uhssslab.com`.
 
