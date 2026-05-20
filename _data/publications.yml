@@ -7,6 +7,35 @@
 
 # ===== 2026 =====
 
+- title: "Wearable EEG and Stand-Alone VR for Mobile Neurorehabilitation: A Cortical Comparison of Real, Virtual, and Simulated Upper-Limb Training"
+  authors: "Ahmad Achkar*, <strong>Omar Achkar</strong>*, George Zouridakis, <strong>Kyu In Lee</strong>"
+  venue: Accepted in IEEE International Conference on Intelligent Mobile Computing (IMC)
+  year: 2026
+  themes: [mobile-wearable, vr-xr]
+  figure: /assets/img/pubs/26_NeuroRehab_IMC.png
+  pdf: ""
+  doi: ""
+  dataset: ""
+  bibtex: |
+    @inproceedings{neurorehab2026,
+      title     = {Wearable {EEG} and Stand-Alone {VR} for Mobile Neurorehabilitation: A Cortical Comparison of Real, Virtual, and Simulated Upper-Limb Training},
+      author    = {Achkar, Ahmad and Achkar, Omar and Zouridakis, George and Lee, Kyu In},
+      booktitle = {IEEE International Conference on Intelligent Mobile Computing (IMC)},
+      year      = {2026},
+      note      = {To appear}
+    }
+  abstract: >-
+    A wearable-EEG and stand-alone-VR proof-of-concept that compares cortical motor
+    preparation across three matched upper-limb reach-and-release conditions: real object
+    manipulation (RMT), VR with on-device hand tracking (VRMT), and object-free simulated
+    movement (SMT). Peak motor potentials of the movement-related cortical potential (MRCP)
+    at Cz are closely matched between VRMT and RMT (p=0.95) and significantly larger in VRMT
+    than SMT (p=0.041), with within-session reductions consistent with motor learning
+    emerging in RMT (p=0.050) and at trend level in VRMT, but absent in SMT. The results
+    suggest VR-based training engages cortical preparation networks comparably to physical
+    practice, supporting mobile EEG-guided neurorehabilitation. (* Equal contribution by
+    Ahmad Achkar and Omar Achkar.)
+
 - title: "ACTAUTH: Interaction-Triggered, Continuous User Authentication for Controller-Free Virtual Reality"
   authors: "<strong>Haoran Li</strong>, <strong>Omar Achkar</strong>, George Zouridakis, Xin Fu, <strong>Kyu In Lee</strong>"
   venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)

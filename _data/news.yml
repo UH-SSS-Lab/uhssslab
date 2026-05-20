@@ -3,6 +3,9 @@
 # `body` is HTML; you can include <a> tags inline.
 
 - date: May 2026
+  body: 'New <a href="/publications/">paper</a> from Ahmad and Omar accepted at Intelligent Mobile Computing (IEEE IMC &rsquo;26).'
+
+- date: May 2026
   body: "Kyu In received the Teaching Excellence Award from the Cullen College of Engineering for 2025-2026!"
 
 - date: Apr 2026
