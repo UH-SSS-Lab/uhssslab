@@ -2,6 +2,18 @@
 # `date` is the display label (Month YYYY).
 # `body` is HTML; you can include <a> tags inline.
 
+- date: Aug 2026
+  body: 'New <a href="/publications/">paper</a> from Mujtabaa and Baqer accepted at Consumer Electronics &ndash; Berlin (IEEE ICCE-Berlin &rsquo;26).'
+
+- date: Aug 2026
+  body: 'New journal <a href="/publications/">paper</a> on securing the Internet of Vehicles accepted in the IEEE Internet of Things Journal (IoT-J).'
+
+- date: Jul 2026
+  body: 'Our <a href="/publications/">paper</a> EchoMark was presented at Multimedia and Expo (IEEE ICME &rsquo;26) in Bangkok.'
+
+- date: May 2026
+  body: 'New journal <a href="/publications/">paper</a> on IoV anomaly detection published in Computers and Electrical Engineering.'
+
 - date: May 2026
   body: 'New <a href="/publications/">paper</a> from Ahmad and Omar accepted at Intelligent Mobile Computing (IEEE IMC &rsquo;26).'
 
