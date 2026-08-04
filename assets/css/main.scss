@@ -1144,6 +1144,13 @@ blockquote {
   line-height: 1;
   color: #EAB308;
 }
+/* Subdued variant for honorable mentions / candidates (no star, neutral tone) */
+.pub-award--muted {
+  background: rgba(148, 163, 184, 0.12);
+  border-color: rgba(148, 163, 184, 0.45);
+  color: #8A919E;
+  font-weight: 500;
+}
 
 /* Theme tags on each publication — link back to the research page */
 .pub-themes {
