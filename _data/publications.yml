@@ -12,7 +12,7 @@
   venue: Accepted in IEEE International Conference on Consumer Electronics – Berlin (ICCE-Berlin)
   year: 2026
   themes: [vehicles, vr-xr]
-  figure: ""
+  figure: /assets/img/pubs/26_MappingXR_ICCE.png
   pdf: ""
   doi: ""
   dataset: ""
@@ -36,7 +36,7 @@
   venue: IEEE Internet of Things Journal (IoT-J)
   year: 2026
   themes: [vehicles]
-  figure: ""
+  figure: /assets/img/pubs/26_ADFII_IOTJ.png
   pdf: /papers_pdf/26_ADFII_IOTJ.pdf
   doi: "https://ieeexplore.ieee.org/document/11554043"
   dataset: ""
@@ -63,7 +63,7 @@
   year: 2026
   themes: [vr-xr]
   award_note: "Best Paper Candidate"
-  figure: ""
+  figure: /assets/img/pubs/26_EchoMark_ICME.png
   pdf: ""
   doi: ""
   dataset: ""
@@ -87,7 +87,7 @@
   venue: Computers and Electrical Engineering (Elsevier)
   year: 2026
   themes: [vehicles]
-  figure: ""
+  figure: /assets/img/pubs/26_SPARTA_CEE.png
   pdf: /papers_pdf/26_SPARTA_CEE.pdf
   doi: "https://www.sciencedirect.com/science/article/abs/pii/S0045790626002971"
   dataset: ""
