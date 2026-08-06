@@ -110,7 +110,7 @@
     performance advantages across noisy and domain-shifted real-world IoV scenarios.
 
 - title: "Wearable EEG and Stand-Alone VR for Mobile Neurorehabilitation: A Cortical Comparison of Real, Virtual, and Simulated Upper-Limb Training"
-  authors: "Ahmad Achkar*, <strong>Omar Achkar</strong>*, George Zouridakis, <strong>Kyu In Lee</strong>"
+  authors: "<strong>Ahmad Achkar</strong>*, <strong>Omar Achkar</strong>*, George Zouridakis, <strong>Kyu In Lee</strong>"
   venue: Accepted in IEEE International Conference on Intelligent Mobile Computing (IMC)
   year: 2026
   themes: [mobile-wearable, vr-xr]
