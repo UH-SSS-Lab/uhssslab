@@ -3,6 +3,9 @@
 # `body` is HTML; you can include <a> tags inline.
 
 - date: Aug 2026
+  body: 'Baqer and Kyu In will organize a <a href="https://icce.org/2027/special-session-chairs/" target="_blank" rel="noopener">special session</a> on Cyber Resilience for Trustworthy Connected Consumer Mobility at Consumer Electronics (IEEE ICCE &rsquo;27) in Las Vegas.'
+
+- date: Aug 2026
   body: 'New <a href="/publications/">paper</a> from Mujtabaa and Baqer accepted at Consumer Electronics &ndash; Berlin (IEEE ICCE-Berlin &rsquo;26).'
 
 - date: Aug 2026
