@@ -17,7 +17,7 @@
   book_image: /assets/img/books/cis2337.jpg
   book_authors: Conklin & White
   book_edition: 4th Edition
-  semesters: [S26, F25, S25, F24, S24, F23, S23, F22]
+  semesters: [F26, S26, F25, S25, F24, S24, F23, S23, F22]
   description: >-
     A comprehensive undergraduate course introducing students to the
     critical concepts and practices within information security. Students
@@ -38,7 +38,7 @@
   book_image: /assets/img/books/cis6321.jpg
   book_authors: Conklin & White
   book_edition: 6th Edition
-  semesters: [S26, F25, S25, F24, S24, F23]
+  semesters: [F26, S26, F25, S25, F24, S24, F23]
   description: >-
     An advanced graduate course on the theoretical and practical aspects
     of cybersecurity. Through lectures, case studies, and hands-on labs,
