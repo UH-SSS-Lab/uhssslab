@@ -1144,12 +1144,17 @@ blockquote {
   line-height: 1;
   color: #EAB308;
 }
-/* Subdued variant for honorable mentions / candidates (no star, neutral tone) */
+/* Candidate / honorable-mention variant — warm amber with outline star:
+   a step up from plain gray, still subordinate to the starred gold award */
 .pub-award--muted {
-  background: rgba(148, 163, 184, 0.12);
-  border-color: rgba(148, 163, 184, 0.45);
-  color: #8A919E;
-  font-weight: 500;
+  background: rgba(234, 179, 8, 0.07);
+  border-color: rgba(234, 179, 8, 0.38);
+  color: #C29B2C;
+  font-weight: 600;
+}
+.pub-award-star--muted {
+  color: #C89F35;
+  font-size: .95rem;
 }
 
 /* Theme tags on each publication — link back to the research page */

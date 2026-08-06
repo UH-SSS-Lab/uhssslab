@@ -41,7 +41,7 @@ subtitle: "Newest first. Filter by research theme. Lab members appear <u>underli
           </div>
           <div class="pub-body">
             <p class="pub-title">{{ pub.title }}</p>
-            {% if pub.award %}<p class="pub-award-row"><span class="pub-award"><span class="pub-award-star">★</span> {{ pub.award }}</span></p>{% elsif pub.award_note %}<p class="pub-award-row"><span class="pub-award pub-award--muted">{{ pub.award_note }}</span></p>{% endif %}
+            {% if pub.award %}<p class="pub-award-row"><span class="pub-award"><span class="pub-award-star">★</span> {{ pub.award }}</span></p>{% elsif pub.award_note %}<p class="pub-award-row"><span class="pub-award pub-award--muted"><span class="pub-award-star pub-award-star--muted">☆</span> {{ pub.award_note }}</span></p>{% endif %}
             <p class="pub-authors">{{ pub.authors }}</p>
             <p class="pub-venue"><span class="pub-venue-name">{{ pub.venue }}</span> · {{ pub.year }}</p>
             {% if pub.themes %}
