@@ -47,28 +47,10 @@
   scholar: ""
 
 - name: Omar Achkar
-  category: Masters Students
-  role: IST MS Student · 2024
+  category: PhD Students
+  role: ECE PhD Student · 2026
   photo: /assets/img/people/omar.jpg
   email: oachkar@cougarnet.uh.edu
-  linkedin: ""
-  website: ""
-  scholar: ""
-
-- name: Sohan Simha Prabhakar
-  category: Masters Students
-  role: IST MS Student · 2024
-  photo: /assets/img/people/sohan.jpg
-  email: sprabha3@cougarnet.uh.edu
-  linkedin: ""
-  website: ""
-  scholar: ""
-
-- name: Zoheir Shaikh
-  category: Masters Students
-  role: IST MS Student · 2026
-  photo: /assets/img/people/placeholder.png
-  email: zshaikh3@cougarnet.uh.edu
   linkedin: ""
   website: ""
   scholar: ""
@@ -91,7 +73,24 @@
   website: ""
   scholar: ""
 
+- name: Arash Heidari, PhD
+  category: Visiting
+  role: Visiting Researcher · 2026
+  photo: /assets/img/people/arash.jpg
+  email: aheidari@central.uh.edu
+  linkedin: ""
+  website: ""
+  scholar: ""
+
 # ===== Previous Members (alumni) =====
+
+- name: Sohan Simha Prabhakar
+  category: Alumni
+  role: MS, 2026
+
+- name: Zoheir Shaikh
+  category: Alumni
+  role: MS, 2026
 
 - name: Chenpei Huang
   category: Alumni
