@@ -2,6 +2,9 @@
 # `date` is the display label (Month YYYY).
 # `body` is HTML; you can include <a> tags inline.
 
+- date: Sep 2026
+  body: 'New <a href="/publications/">paper</a> from Haoran and Omar accepted at Virtual Reality Software and Technology (<a href="https://vrst.acm.org/vrst2026/" target="_blank" rel="noopener">ACM VRST &rsquo;26</a>).'
+
 - date: Aug 2026
   body: 'Baqer and Kyu In will organize a <a href="https://icce.org/2027/special-session-chairs/" target="_blank" rel="noopener">special session</a> on Cyber Resilience for Trustworthy Connected Consumer Mobility at Consumer Electronics (<a href="https://icce.org/2027/" target="_blank" rel="noopener">IEEE ICCE &rsquo;27</a>) in Las Vegas.'
 

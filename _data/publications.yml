@@ -7,6 +7,35 @@
 
 # ===== 2026 =====
 
+- title: "IdeaVR: Interaction-edge Detection and Early Authentication Using Native Hand Tracking in Virtual Reality"
+  authors: "<strong>Haoran Li</strong>, <strong>Omar Achkar</strong>, Xin Fu, <strong>Kyu In Lee</strong>"
+  venue: Accepted in ACM Symposium on Virtual Reality Software and Technology (VRST)
+  year: 2026
+  themes: [vr-xr, mobile-wearable]
+  figure: /assets/img/pubs/26_IdeaVR_VRST.png
+  pdf: ""
+  doi: ""
+  dataset: ""
+  bibtex: |
+    @inproceedings{ideavr2026,
+      title     = {IdeaVR: Interaction-edge Detection and Early Authentication Using Native Hand Tracking in Virtual Reality},
+      author    = {Li, Haoran and Achkar, Omar and Fu, Xin and Lee, Kyu In},
+      booktitle = {ACM Symposium on Virtual Reality Software and Technology (VRST)},
+      year      = {2026},
+      note      = {To appear}
+    }
+  abstract: >-
+    IdeaVR (Interaction-edge Detection and Early Authentication for Virtual Reality)
+    verifies identity at the edge of each meaningful object interaction, before the
+    application treats the action as trusted, rather than only at login or at arbitrary
+    background intervals. It continuously buffers headset-native hand-tracking data and,
+    at each interaction flag, uses Aggregated Signal Variance (ASV) onset localization to
+    extract an interaction-edge window for authentication against the enrolled user.
+    Using a 1D CNN, IdeaVR achieves 92.93% TAR and 3.46% FAR on held-out objects across
+    20 participants and 12 objects under a leave-one-object-per-class-out protocol,
+    rejects 96.40% of 12,000 simulated takeover sequences at the first attempted
+    interaction, and keeps hot-path latency under 4 ms.
+
 - title: "Mapping Extended Reality Threats in Connected Vehicles with Attack-Defense Tree"
   authors: "<strong>Mujtabaa Adam</strong>, <strong>Muhammad Baqer Mollah</strong>, <strong>Kyu In Lee</strong>"
   venue: Accepted in IEEE International Conference on Consumer Electronics – Berlin (ICCE-Berlin)
