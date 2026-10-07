@@ -25,19 +25,12 @@
       note      = {To appear}
     }
   abstract: >-
-    Safety-critical V2X messages such as collision warnings and road-hazard alerts must
-    be multicast quickly while remaining confidential, authentic, and restricted to the
-    right receivers, yet conventional designs handle encryption and signatures as separate
-    costly steps. This work proposes a ciphertext-policy attribute-based signcryption (CP-ABSC)
-    scheme in which a sender vehicle encrypts and signs a safety message in a single logical
-    step under an access policy over vehicle attributes such as role, location, and trust
-    level, so only authorized vehicles can decrypt and verify it as it is relayed through
-    RSUs. Embedded timestamps provide freshness against replay, and a trusted authority
-    enables conditional privacy through pseudonymous credentials. Evaluated with the Charm
-    library on SS512 and MNT159 pairing curves for a lane-closure scenario, the scheme
-    significantly reduces computational overhead compared with a standalone attribute-based
-    encryption plus BLS signature baseline, keeping it practical for real-time safety
-    applications.
+    An attribute-based signcryption scheme for secure multicasting of safety messages in
+    connected vehicles that encrypts and signs each message in a single step under an access
+    policy over vehicle attributes such as role, location, and trust level, so only
+    authorized vehicles can decrypt and verify it. Embedded timestamps prevent replay, and
+    the scheme significantly reduces computational overhead compared with conventional
+    attribute-based encryption plus signatures.
 
 - title: "IdeaVR: Interaction-edge Detection and Early Authentication Using Native Hand Tracking in Virtual Reality"
   authors: "<strong>Haoran Li</strong>, <strong>Omar Achkar</strong>, Xin Fu, <strong>Kyu In Lee</strong>"
