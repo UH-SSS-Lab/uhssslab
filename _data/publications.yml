@@ -88,7 +88,7 @@
 
 - title: "Mapping Extended Reality Threats in Connected Vehicles with Attack-Defense Tree"
   authors: "<strong>Mujtabaa Adam</strong>, <strong>Muhammad Baqer Mollah</strong>, <strong>Kyu In Lee</strong>"
-  venue: To appear in IEEE International Conference on Consumer Electronics – Berlin (ICCE-Berlin)
+  venue: Accepted in IEEE International Conference on Consumer Electronics – Berlin (ICCE-Berlin)
   year: 2026
   themes: [vehicles, vr-xr]
   figure: /assets/img/pubs/26_MappingXR_ICCE.png
@@ -138,7 +138,7 @@
 
 - title: "EchoMark: Acoustic Environment Matching with Watermarked Room Impulse Response"
   authors: "<strong>Chenpei Huang</strong>, Lingfeng Yao, Lening Wang, Lan Zhang, Xun Chen, <strong>Kyu In Lee</strong>, Miao Pan"
-  venue: To appear in IEEE International Conference on Multimedia and Expo (ICME)
+  venue: IEEE International Conference on Multimedia and Expo (ICME)
   year: 2026
   themes: [vr-xr]
   award_note: "Best Paper Candidate"
@@ -190,7 +190,7 @@
 
 - title: "Wearable EEG and Stand-Alone VR for Mobile Neurorehabilitation: A Cortical Comparison of Real, Virtual, and Simulated Upper-Limb Training"
   authors: "<strong>Ahmad Achkar</strong>*, <strong>Omar Achkar</strong>*, George Zouridakis, <strong>Kyu In Lee</strong>"
-  venue: To appear in IEEE International Conference on Intelligent Mobile Computing (IMC)
+  venue: Accepted in IEEE International Conference on Intelligent Mobile Computing (IMC)
   year: 2026
   themes: [mobile-wearable, vr-xr]
   figure: /assets/img/pubs/26_NeuroRehab_IMC.png
@@ -219,7 +219,7 @@
 
 - title: "ACTAUTH: Interaction-Triggered, Continuous User Authentication for Controller-Free Virtual Reality"
   authors: "<strong>Haoran Li</strong>, <strong>Omar Achkar</strong>, George Zouridakis, Xin Fu, <strong>Kyu In Lee</strong>"
-  venue: To appear in IEEE International Conference on Cyber Security and Resilience (CSR)
+  venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)
   year: 2026
   themes: [vr-xr, mobile-wearable]
   figure: /assets/img/pubs/26_actauth_csr.png
@@ -244,7 +244,7 @@
 
 - title: "Securing the Lifeline: Enforcing Read and Write Access Control in Vehicular Safety Services"
   authors: "<strong>Muhammad Baqer Mollah</strong>, George Zouridakis, <strong>Kyu In Lee</strong>"
-  venue: To appear in IEEE International Conference on Cyber Security and Resilience (CSR)
+  venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)
   year: 2026
   themes: [vehicles]
   figure: /assets/img/pubs/26_securing_CSR.png
