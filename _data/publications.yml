@@ -25,14 +25,11 @@
       note      = {To appear}
     }
   abstract: >-
-    An analysis of the January 2024 cyber security incident at the municipal water system in
-    Muleshoe, Texas, in which unauthorized access to the control environment caused a storage
-    tank to overflow. The incident is examined through the six functions of the NIST
-    Cybersecurity Framework 2.0 (Govern, Identify, Protect, Detect, Respond, Recover) using a
-    qualitative relevance scale grounded in publicly available evidence. The study shows how
-    CSF 2.0 can structure assessment of preparedness, response, and recovery in small
-    municipal networks, and how resilience in such networks affects the continuity of
-    consumer-facing critical services.
+    A NIST Cybersecurity Framework 2.0 analysis of the 2024 cyber incident at the Muleshoe,
+    Texas municipal water system, where unauthorized access to the control environment caused
+    a storage tank to overflow. The six CSF functions are applied to the available evidence to
+    assess preparedness, response, and recovery in small municipal water networks and their
+    implications for the continuity of consumer-facing critical services.
 
 - title: "Secure and Efficient Multicasting of Safety Messages for Connected Vehicles"
   authors: "Muzamil Raheman Shaik, <strong>Muhammad Baqer Mollah</strong>, Yunpeng Zhang, Lu Gao, <strong>Kyu In Lee</strong>"
