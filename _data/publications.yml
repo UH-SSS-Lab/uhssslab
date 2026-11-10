@@ -249,7 +249,7 @@
   figure: /assets/img/pubs/26_actauth_csr.png
   pdf: /papers_pdf/26_ACTAUTH_CSR.pdf
   doi: "https://ieeexplore.ieee.org/document/11759823"
-  dataset: ""
+  dataset: "https://github.com/UHSSS/VR-Auth-In-Action"
   bibtex: |
     @inproceedings{actauth2026,
       title     = {ACTAUTH: Interaction-Triggered, Continuous User Authentication for Controller-Free Virtual Reality},
