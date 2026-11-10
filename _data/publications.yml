@@ -243,12 +243,12 @@
 
 - title: "ACTAUTH: Interaction-Triggered, Continuous User Authentication for Controller-Free Virtual Reality"
   authors: "<strong>Haoran Li</strong>, <strong>Omar Achkar</strong>, George Zouridakis, Xin Fu, <strong>Kyu In Lee</strong>"
-  venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)
+  venue: IEEE International Conference on Cyber Security and Resilience (CSR)
   year: 2026
   themes: [vr-xr, mobile-wearable]
   figure: /assets/img/pubs/26_actauth_csr.png
-  pdf: ""
-  doi: ""
+  pdf: /papers_pdf/26_ACTAUTH_CSR.pdf
+  doi: "https://ieeexplore.ieee.org/document/11759823"
   dataset: ""
   bibtex: |
     @inproceedings{actauth2026,
@@ -256,7 +256,7 @@
       author    = {Li, Haoran and Achkar, Omar and Zouridakis, George and Fu, Xin and Lee, Kyu In},
       booktitle = {IEEE International Conference on Cyber Security and Resilience (CSR)},
       year      = {2026},
-      note      = {To appear}
+      doi       = {10.1109/CSR69374.2026.11759823}
     }
   abstract: >-
     ACTAUTH is a controller-free continuous user authentication framework for shared
@@ -268,12 +268,12 @@
 
 - title: "Securing the Lifeline: Enforcing Read and Write Access Control in Vehicular Safety Services"
   authors: "<strong>Muhammad Baqer Mollah</strong>, George Zouridakis, <strong>Kyu In Lee</strong>"
-  venue: Accepted in IEEE International Conference on Cyber Security and Resilience (CSR)
+  venue: IEEE International Conference on Cyber Security and Resilience (CSR)
   year: 2026
   themes: [vehicles]
   figure: /assets/img/pubs/26_securing_CSR.png
-  pdf: ""
-  doi: ""
+  pdf: /papers_pdf/26_Lifeline_CSR.pdf
+  doi: "https://ieeexplore.ieee.org/document/11759872"
   dataset: ""
   bibtex: |
     @inproceedings{lifeline2026,
@@ -281,7 +281,7 @@
       author    = {Mollah, Muhammad Baqer and Zouridakis, George and Lee, Kyu In},
       booktitle = {IEEE International Conference on Cyber Security and Resilience (CSR)},
       year      = {2026},
-      note      = {To appear}
+      doi       = {10.1109/CSR69374.2026.11759872}
     }
   abstract: >-
     A security mechanism for Internet-of-Vehicles (IoV) safety services that uses access
